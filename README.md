@@ -1,6 +1,7 @@
 # orange-confusion-attacks
 
 Repro for Confusion Attacks: Exploiting Hidden Semantic Ambiguity in Apache HTTP Server!
+
 Discovered by https://x.com/orange_8361
 
 https://blog.orange.tw/posts/2024-08-confusion-attacks-en/
