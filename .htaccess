@@ -1,0 +1,25 @@
+<Files "admin.php">
+    AuthType Basic 
+    AuthName "Admin Panel"
+    AuthUserFile "/etc/apache2/.htpasswd"
+    Require valid-user
+</Files>
+
+<Files "adminer.php">
+    AuthType Basic 
+    AuthName "Admin Panel"
+    AuthUserFile "/etc/apache2/.htpasswd"
+    Require valid-user
+</Files>
+
+<Files "xmlrpc.php">
+    AuthType Basic 
+    AuthName "Admin Panel"
+    AuthUserFile "/etc/apache2/.htpasswd"
+    Require valid-user
+</Files>
+
+<Files .env>
+    Order allow,deny
+    Deny from all
+</Files>
